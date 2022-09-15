@@ -16,10 +16,10 @@
 Далее описание функции и параметров дано на Typescript, но функцию требуется написать на JS.
 
 /**
- * @param n - количество фоторамок
- * @param width - ширина области для фоторамок
- * @param height - высота области для фоторамок
- */
+ \* @param n - количество фоторамок
+ \* @param width - ширина области для фоторамок
+ \* @param height - высота области для фоторамок
+ \*/
 module.exports = function(n: number, width: number, height: number): Photo[] {
 }
 type Photo = {
