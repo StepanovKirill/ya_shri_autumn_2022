@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <form action="" class="form">
+      <label for="articles_count">Количество статей, шт</label>
+      <input id="articles_count" type="number" value="10" min="0"/>
+      <label for="column_count">Количество колонок, px</label>
+      <input id="column_count" type="number"  value="3" min="1"/>
+      <label for="gap">Расстояние между колонками, px</label>
+      <input id="gap" type="number"  value="20" min="0"/>
+
+      <button class="button">Расчет</button>
+    </form>
+    <div class="root">
+    </div>
+  </main>
+  
+
+  <script src="solution.js"></script>
+</body>
+</html>

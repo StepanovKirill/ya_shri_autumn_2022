@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <form action="" class="form">
+      <label for="num">Количество фотографий, шт</label>
+      <input id="num" type="number" value="10" min="0"/>
+      <label for="width">Ширина стены, px</label>
+      <input id="width" type="number"  value="100" min="1"/>
+      <label for="height" >Высота стены, px</label>
+      <input id="height" type="number" value="100" min="1"/>
+
+      <button class="button">Расчет</button>
+    </form>
+    <div id="result">
+    </div>
+  </main>
+  <script src="./render.js"></script>
+</body>
+</html>

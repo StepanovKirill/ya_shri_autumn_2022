@@ -1,0 +1,47 @@
+body {
+  box-sizing:content-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.container {
+  background-color: azure;
+  outline: 1px solid gray;
+  position: relative;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: brown;
+  position: absolute;
+  z-index: 10;
+}
+
+.photo {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  border: solid 1px darkblue;
+  background-color: beige;
+}
